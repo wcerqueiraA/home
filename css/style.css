@@ -2,6 +2,7 @@ body {
     font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
+    background-color: black;
 }
 
 h2 {
@@ -16,10 +17,8 @@ nav {
 section {
     width: 90%;
     height: auto;
-    background-color: #f8f8ff;
-    margin: 20px auto;
-    border: 1px solid #0d6efd;
-    border-radius: 5px;
+    margin: 50px auto 50px auto;
+    border-bottom: 1px solid gray;
 }
 
 
@@ -75,7 +74,7 @@ a:active {
     width: 150px;
     height: 150px;
     background-color: white;
-    border: 1px solid #0d6efd;
+    border: 5px solid #14ac79;
     border-radius: 5px;
     margin-left: 25%;
     margin-bottom: 15px;
@@ -83,13 +82,13 @@ a:active {
 
 #project .card {
     margin-bottom: 15px;
-    border: 1px solid #0d6efd;
+    border: 5px solid #14ac79;
 }
 
 #project img {
     width: 250px;
     height: 250px;
-    border: 1px solid #0d6efd;
+    border: 1px solid #0d6efd; 
     margin: 10px auto;
 }
 
@@ -157,5 +156,5 @@ a:active {
 
 footer {
     margin-bottom: 5px;
-    color: black;
+    color: white;
 }
