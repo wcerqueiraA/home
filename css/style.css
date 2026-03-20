@@ -28,12 +28,10 @@
   display:flex;
   justify-content: center;
 }
-#social-container ul {
-    list-style-type: none;
-}
 #social-container li {
   font-size: 24px;
   margin: 1px 4px 1px 4px;
+  list-style-type: none;
 }
 
 #bio-container {
