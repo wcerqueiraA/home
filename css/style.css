@@ -27,7 +27,11 @@
 #social-container {
   display:flex;
   justify-content: center;
+}
+
+#social-container li {
   font-size: 24px;
+  margin: 1px 4px 1px 4px;
   text-decoration: none;
 }
 
