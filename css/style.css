@@ -63,3 +63,10 @@
 i {
   font-size: 50px;
 }
+
+#project-section-title {
+  border-top: 1px solid var(--border-color);
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
