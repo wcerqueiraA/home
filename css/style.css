@@ -24,15 +24,6 @@
   color: var(--main-text-color)
 }
 
-#social-container {
-  display:flex;
-  justify-content: center;
-}
-#social-container li {
-  font-size: 24px;
-  margin: 1px 4px 1px 4px;
-  list-style-type: none;
-}
 
 #bio-container {
   flex: 1 1 20%;
@@ -41,13 +32,6 @@
   text-align: center;
   padding: 30px 12px;
   border-right: 5px solid var(--bio-border-color);
-}
-
-#about-container {
-  flex: 1 1 80%;
-  min-height: 100vh;
-  background-color: var(--about-bg-color);
-  padding: 50px;
 }
 
 #bio-container h2 {
@@ -60,8 +44,46 @@
   border-radius: 50%;
   margin-bottom: 25px;
 }
-i {
-  font-size: 50px;
+
+#social-container {
+  display:flex;
+  justify-content: center;
+  list-style: none;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+#social-container li {
+  flex: 1;
+  max-width: 50px;
+}
+
+#social-container li a {
+  color: var(--main-color);
+  font-size: 30px;
+}
+
+#about-container {
+  flex: 1 1 80%;
+  min-height: 100vh;
+  background-color: var(--about-bg-color);
+  padding: 50px;
+}
+
+#skills-section-title {
+  border-top: 1px solid var(--border-color);
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+#skills-container{
+
+}
+
+#skills-box {
+
 }
 
 #project-section-title {
@@ -70,3 +92,13 @@ i {
   margin-bottom: 20px;
   font-size: 32px;
 }
+
+#project-container {
+
+}
+
+#project-box {
+
+}
+
+
