@@ -27,64 +27,83 @@
             <h1 id="name">Wellington Cerqueira</h1>
             <p id="title"><span class="highlight">Desenvolvedor Back-End</span></p>
             <p class="description">
-                Desenvolvedor backend C# e .NET, graduado em Tecnologia em Jogos Digitais, pela UNINOVE. Atualmente focado em C# e .NET, 
-                desenvolvendo APIs REST com organização em camadas, modelagem de dados e boas práticas de estruturação.
-                Busco ampliar minha atuação para diferentes tipos de aplicações dentro do ecossistema .NET.
+                Desenvolvedor Backend com foco em C# e .NET, graduado em Tecnologia em Jogos Digitais pela UNINOVE.
+Experiência no desenvolvimento de aplicações utilizando arquitetura em camadas, modelagem de dados e boas práticas de engenharia de software, incluindo projetos com padrão MVC e integração com APIs.
+Busco expandir minha atuação no ecossistema .NET, contribuindo para a construção de soluções robustas e escaláveis.
             </p>
-            <h2 id="skills-section-title">Minhas habilidades</h2>
+            <h2 id="skills-section-title">Habilidades</h2>
             <div id="skills-container">
                 <div class="skills-box">
-                    <i class="devicon-html5-plain"></i>
-                    <i class="devicon-css3-plain"></i>
-                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-html5-plain colored"></i>
+                    <h4>HTML5</h4>
+                </div>
+                <div class="skills-box">
+                    <i class="devicon-css3-plain colored"></i>
+                    <h4>CSS3</h4>
+                </div>
+                <div class="skills-box">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <h4>Javascript</h4>
                 </div>
                 <div class="skills-box">
                     <i class="devicon-csharp-line colored"></i>
-                    <i class="devicon-dotnetcore-plain"></i>
-                    <i class="devicon-entityframeworkcore-plain"></i>
+                    <h4>C#</h4>
                 </div>
                 <div class="skills-box">
-                    <i class="devicon-microsoftsqlserver-plain"></i>
-                    <i class="devicon-sqlite-plain"></i>
+                    <i class="devicon-dotnetcore-plain colored"></i>
+                    <h4>.NET Core</h4>
                 </div>
                 <div class="skills-box">
-                    <i class="devicon-git-plain"></i>
-                    <i class="devicon-github-original"></i>
+                    <i class="devicon-entityframeworkcore-plain colored"></i>
+                    <h4>Entity Framework Core</h4>
+                </div>
+                <div class="skills-box">
+                    <i class="devicon-microsoftsqlserver-plain colored"></i>
+                    <h4>SQL SERVER</h4>
+                </div>
+                <div class="skills-box">
+                    <i class="devicon-sqlite-plain colored"></i>
+                    <h4>SQLite</h4>
+                </div>
+                <div class="skills-box">
+                    <i class="devicon-git-plain colored"></i>
+                    <h4>Git</h4>
+                </div>
+                <div class="skills-box">
+                    <i class="devicon-github-original colored"></i>
+                    <h4>Github</h4>
                 </div>
             </div>
-            <h2 id="project-section-title">Meus projetos</h2>
-            <div id="project-container">
-                <div class="project-box">
+            
+            <h2 id="project-section-title">Projetos</h2>
+                <div class="project-container">
                     <h3 id="project-title">Book Wishlist API</h3>
-                    <h4 id="project-description-title">Descrição</h4>
                     <p id="project-description">API REST desenvolvida em ASP.NET Core para gerenciamento de uma lista de desejos de livros.
                     A aplicação permite adicionar, atualizar, consultar e remover livros da lista, utilizando boas práticas de arquitetura para organização e manutenção do código.</p>
-                    <h4 id="project-tecnology-title">Tecnologias utilizadas</h4>
-                    <ul>
-                        <li>C#</li>
-                        <li>ASP.NET Core Web API</li>
-                        <li>Entity Framework Core</li>
-                        <li>SQLite</li>
-                        <li>AutoMapper</li>
-                    </ul>
-                    <h4 id="project-pattern-title">Padrões e boas práticas</h4>
-                    <ul>
-                        <li>Repository Pattern para abstração do acesso a dados</li>
-                        <li>DTO Pattern para separar modelos de domínio da API</li>
-                        <li>AutoMapper para mapear entidades e DTOs</li>
-                        <li>Estrutura organizada em camadas</li>
-                    </ul>
-                    <h4 id="project-features-title">Funcionalidades</h4>
-                    <ul>
-                        <li>Adicionar um livro à lista de desejos</li>
-                        <li>Consultar todos os livros cadastrados</li>
-                        <li>Consultar livro por ID</li>
-                        <li>Atualizar informações de um livro</li>
-                        <li>Remover livro da lista</li>
-                    </ul> 
-                    <a href="https://github.com/wcerqueiraA/Book_Wishlist_Api">Github</a>
+                    <div class="tecnology-box">
+                        <span>C#</span> <span>ASP.NET Core</span> <span>REST API</span> <span>Entity Framework</span> <span>SQLite</span> <span>Repository Pattern</span> <span>DTO</span> <span>AutoMapper</span> <span>NUnit</span> <span>Swagger</span></br>
+                    </div>
+                    </br>
+                    <div class="link-box">
+                        <span class="project-link">
+                            <ion-icon name="logo-github"></ion-icon><a href="https://github.com/wcerqueiraA/Book_Wishlist_Api">Github</a>
+                        </span>
+                    </div>
                 </div>
-            </div>
+                
+                <div class="project-container">
+                    <h3 id="project-title">Country Guide</h3>
+                    <p id="project-description">Aplicação web desenvolvida em ASP.NET Core MVC que consome a API pública REST Countries para obtenção de dados sobre países. Permite a pesquisa por nome e a visualização de informações como bandeira, idioma, população e área territorial. Implementa cache em memória para otimizar o desempenho e reduzir o número de requisições à API.</p>
+                    <div class="tecnology-box">
+                        <span>C#</span> <span>ASP.NET CORE</span><span>MVC</span> <span>HTML</span> <span>CSS</span> <span>REST API</span> <span>HttpClient</span> <span>JSON</span> <span>Memory Cache</span>
+                    </div>
+                    </br>
+                    <div class="link-box">
+                        <span class="project-link">
+                        <ion-icon name="logo-github"></ion-icon><a href="https://github.com/wcerqueiraA/Country_Guide">Github</a>
+                        </span>
+                    </div>
+                </div>
         </section>
     </main>
             
