@@ -26,7 +26,7 @@
 
 
 #bio-container {
-  flex: 1 1 20%;
+  flex: 1 1 33%;
   min-height: 100vh;
   background-color: var(--bio-bg-color);
   text-align: center;
@@ -71,6 +71,15 @@
   padding: 50px;
 }
 
+
+#about-container h1{
+  font-weight: bold;
+}
+
+#about-container #title{
+  font-weight: bold;
+}
+
 #skills-section-title {
   border-top: 1px solid var(--border-color);
   padding-top: 20px;
@@ -79,11 +88,27 @@
 }
 
 #skills-container{
-
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  max-width: 80%;
 }
 
-#skills-box {
+.skills-box {
+  flex: 1 1 10%;
+  margin: 5px;
+  padding: 15px 10% 15px 10%;
+}
 
+.skills-box h4 {
+  margin-top: 25px;
+  font-display: center;
+  font-size: 15px;
+}
+
+.skills-box i{
+  font-size: 45px;
+  font-display: center;
 }
 
 #project-section-title {
@@ -93,12 +118,81 @@
   font-size: 32px;
 }
 
-#project-container {
-
+.project-container {
+  margin-top: 25px;
+  padding:5px;
+  border-bottom: 1px solid var(--border-color);
 }
 
-#project-box {
-
+#project-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-left: 5px solid var(--main-color);
+}
+.tecnology-box{
+  padding: 3px;
 }
 
+.tecnology-box span{
+  border-radius: 5px;
+  margin: 1px;
+  padding: 0 5px 0px 5px;
+  border: solid 1px white;
+}
+.project-link {
+  border-radius: 10px;
+  margin-top: 25px;
+  padding:3px;
+  border: solid 1px white;
+}
 
+@media(max-width: 450px) {
+  #container {
+    flex-direction: column;
+  }
+
+  #bio-container {
+    min-height:auto;
+    border-right: none;
+    border-bottom: 5px solid var(--bio-border-color);
+  }
+
+  bio-container h2 {
+    display: none;
+  }
+
+  #bio-container p {
+    max-width: 60%;
+    margin: 10px auto;
+  }
+
+  #about-container {
+    text-align: center;
+    padding: 30px;
+  }
+
+  #about-container .description {
+    margin: 10px auto;
+    max-width: 100%;
+    line-height: 26px;
+  }
+
+  .skills-box {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  .skills-box i {
+    font-size: 60px;
+  }
+
+  #project-container p {
+    max-width: 60%;
+    margin: 10px auto;
+  }
+
+}
